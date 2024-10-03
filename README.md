@@ -29,7 +29,7 @@ env\Scripts\Activate
 pip install -r requirements.txt.
 ```
 
-6. No olvides crear la base de datos de forma local y cambiar el archivo db.py en la variable engine por:
+5. No olvides crear la base de datos de forma local y cambiar el archivo db.py en la variable engine por:
    
 ```
 engine = "mysql+pymysql://usuario:contraseña@localhost:puerto-BD)/base_datos"
